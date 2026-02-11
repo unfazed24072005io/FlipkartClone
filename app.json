@@ -30,6 +30,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3be5fc44-51ab-4c19-aa4f-6325942239d8"
+      }
+    },
+    "owner": "priyagold"
   }
 }

@@ -1,0 +1,1 @@
+com.android.builder.model.Version.ANDROID_GRADLE_PLUGIN_VERSION = '8.1.1' 

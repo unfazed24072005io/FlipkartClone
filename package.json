@@ -1,38 +1,21 @@
 {
-  "expo": {
-    "name": "FlipkartClone",
-    "slug": "flipkartclone",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "scheme": "flipkartclone",
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.yourname.flipkartclone"
-    },
-    "plugins": [
-      "expo-router"
-    ],
-    "experiments": {
-      "typedRoutes": true
-    }
+  "name": "FlipkartClone",
+  "main": "expo-router/entry",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "dependencies": {
-    "expo-splash-screen": "^31.0.13"
-  }
+    "expo": "51.0.0",
+    "expo-constants": "18.0.11",
+    "expo-router": "6.0.17",
+    "expo-splash-screen": "31.0.12",
+    "expo-system-ui": "~3.0.7",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-native": "0.81.5"
+  },
+  "private": true
 }
